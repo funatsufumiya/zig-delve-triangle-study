@@ -21,7 +21,7 @@ pub fn build(b: *std.Build) void {
     });
 
     const exe = b.addExecutable(.{
-        .name = "zig-delve-hello-world",
+        .name = "delve_triangle",
         .root_source_file = b.path("src/main.zig"),
         .target = target,
         .optimize = optimize,
