@@ -13,7 +13,7 @@ Tested with Zig 0.13.0.
 $ zig build run
 
 # release:
-$ zig build run -Doptimize=ReleaseSafe
+$ zig build run --release=fast
 ```
 
 ## LICENSE
